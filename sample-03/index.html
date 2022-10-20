@@ -19,23 +19,23 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="uk-container-expand">
+  <div class="uk-container">
 
     <!-- Navigation -->
-    <nav class="uk-navbar-container uk-margin-left uk-margin-right" uk-navbar>
-      <div class="uk-navbar-left">
+    <nav class="uk-navbar-container" uk-navbar uk-sticky="start: 200; animation: uk-animation-slide-top">
+      <div class="uk-navbar-left uk-margin-left">
         <a href="#" class="uk-navbar-item uk-logo">The Age of Space</a>
       </div>
-      <div class="uk-navbar-right">
+      <div class="uk-navbar-right uk-margin-right">
         <ul class="uk-navbar-nav uk-subnav-divider">
           <li>
-            <a href="#dream">The Dream</a>
+            <a href="#dream" uk-scroll>The Dream</a>
           </li>
           <li>
-            <a href="#launch">The Launch</a>
+            <a href="#launch" uk-scroll>The Launch</a>
           </li>
           <li>
-            <a href="#mars">Life on Mars</a>
+            <a href="#mars" uk-scroll>Life on Mars</a>
           </li>
         </ul>
       </div>
@@ -43,6 +43,15 @@
 
     <!-- Content -->
     <h1 id="dream" class="uk-text-center">The Dream</h1>
+
+    <img width="1200" height="800" src="img/AZ_AZ160526_D300-scaled.jpg" alt="Night sky">
+
+    <img width="1200" height="800" src="img/AZ_AZ160526_D300-scaled.jpg" alt="Night sky">
+    <img width="1200" height="800" src="img/AZ_AZ160526_D300-scaled.jpg" alt="Night sky">
+
+    <footer class="uk-text-center uk-margin uk-margin-bottom">
+      <a href="#" uk-scroll>To Top</a>
+    </footer>
 
   </div>
 </body>
