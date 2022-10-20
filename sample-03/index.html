@@ -19,15 +19,15 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="uk-container">
+  <div class="uk-container uk-margin-top">
 
     <!-- Navigation -->
-    <nav class="uk-navbar-container" uk-navbar uk-sticky="start: 200; animation: uk-animation-slide-top">
+    <nav class="uk-navbar-container" uk-navbar uk-sticky="start: 50; animation: uk-animation-slide-top">
       <div class="uk-navbar-left uk-margin-left">
         <a href="#" class="uk-navbar-item uk-logo">The Age of Space</a>
       </div>
       <div class="uk-navbar-right uk-margin-right">
-        <ul class="uk-navbar-nav uk-subnav-divider">
+        <ul class="uk-navbar-nav uk-subnav-divider" uk-scrollspy-nav="closest: li; scroll: true; offset: 70;">
           <li>
             <a href="#dream" uk-scroll>The Dream</a>
           </li>
@@ -46,8 +46,56 @@
 
     <img width="1200" height="800" src="img/AZ_AZ160526_D300-scaled.jpg" alt="Night sky">
 
-    <img width="1200" height="800" src="img/AZ_AZ160526_D300-scaled.jpg" alt="Night sky">
-    <img width="1200" height="800" src="img/AZ_AZ160526_D300-scaled.jpg" alt="Night sky">
+    <hr class="uk-grid-divider">
+
+    <div class="uk-child-width-1-2" uk-grid>
+      <div>
+        <img width="600" height="400" src="img/main_1500.jpg" alt="">
+      </div>
+      <div class="uk-padding-remove-right">
+        <h2>Reaching for the Stars</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo nihil animi! Impedit quod optio illum maiores totam! In tenetur perspiciatis adipisci expedita at dolore earum harum incidunt quaerat ipsa.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo nihil animi! Impedit quod optio illum maiores totam! In tenetur perspiciatis adipisci expedita at dolore earum harum incidunt quaerat ipsa.</p>
+      </div>
+    </div>
+
+    <hr class="uk-grid-divider">
+
+    <h1 id="launch" class="uk-text-center">The Launch</h1>
+
+    <div class="uk-margin">
+      <img width="1200" height="800" src="img/2208_F1_1200x600.jpg" alt="Space shuttle">
+    </div>
+
+    <div class="uk-child-width-1-2 uk-child-width-1-1@m" uk-grid>
+      <div>
+        <h2>Plenty of Challenges ahead</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo nihil animi! Impedit quod optio illum maiores totam! In tenetur perspiciatis adipisci expedita at dolore earum harum incidunt quaerat ipsa.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo nihil animi! Impedit quod optio illum maiores totam! In tenetur perspiciatis adipisci expedita at dolore earum harum incidunt quaerat ipsa.</p>
+      </div>
+      <div class="uk-padding-remove-right">
+        <img width="600" height="400" src="img/challanges.png" alt="">
+      </div>
+    </div>
+
+    <hr class="uk-grid-divider">
+
+    <h1 id="mars" class="uk-text-center">Life on Mars</h1>
+
+    <div class="uk-margin">
+      <img width="1200" height="800" src="img/mars.jpg" alt="Space shuttle">
+    </div>
+
+    <div class="uk-child-width-1-2 uk-child-width-1-1@m" uk-grid>
+      <div>
+        <img width="600" height="400" src="img/colony.jpg" alt="">
+      </div>
+      <div class="uk-padding-remove-right">
+        <h2>A colony of humans</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo nihil animi! Impedit quod optio illum maiores totam! In tenetur perspiciatis adipisci expedita at dolore earum harum incidunt quaerat ipsa.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo nihil animi! Impedit quod optio illum maiores totam! In tenetur perspiciatis adipisci expedita at dolore earum harum incidunt quaerat ipsa.</p>
+      </div>
+    </div>
 
     <footer class="uk-text-center uk-margin uk-margin-bottom">
       <a href="#" uk-scroll>To Top</a>
