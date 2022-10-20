@@ -4,3 +4,5 @@
 - Creating a markup section with six blocks of text.
 - Using adaptive layout with uk-grid in UIKit.
 - Working with the widths of inherited element blocks through the parent block.
+
+[Main page](https://github.com/Marionetko/uikit-samples)
