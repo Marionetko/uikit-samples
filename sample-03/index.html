@@ -19,37 +19,36 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="uk-container">
 
-    <!-- Navigation -->
-    <nav class="uk-navbar-container" uk-navbar uk-sticky="start: 50; animation: uk-animation-slide-top">
-      <div class="uk-navbar-left uk-margin-left">
-        <a href="#" class="uk-navbar-item uk-logo">The Age of Space</a>
-      </div>
-      <div class="uk-navbar-right uk-margin-right">
-        <ul class="uk-navbar-nav uk-subnav-divider uk-visible@m" uk-scrollspy-nav="closest: li; scroll: true; offset: 70;">
-          <li>
-            <a href="#dream" uk-scroll>The Dream</a>
-          </li>
-          <li>
-            <a href="#launch" uk-scroll>The Launch</a>
-          </li>
-          <li>
-            <a href="#mars" uk-scroll>Life on Mars</a>
-          </li>
-        </ul>
-        <a href="#offcanvas" class="uk-navbar-toggle uk-navbar-toggle-animate uk-hidden@m " uk-toggle="target: #offcanvas" >
-          <span uk-navbar-toggle-icon></span> 
-        </a>
-      </div>
-    </nav>
+  <!-- Navigation -->
+  <nav class="uk-navbar-container" uk-navbar uk-sticky="start: 50; animation: uk-animation-slide-top">
+    <div class="uk-navbar-left uk-margin-left">
+      <a href="#" class="uk-navbar-item uk-logo">The Age of Space</a>
+    </div>
+    <div class="uk-navbar-right uk-margin-right">
+      <ul class="uk-navbar-nav uk-subnav-divider uk-visible@m" uk-scrollspy-nav="closest: li; scroll: true; offset: 70;">
+        <li>
+          <a href="#dream" uk-scroll>The Dream</a>
+        </li>
+        <li>
+          <a href="#launch" uk-scroll>The Launch</a>
+        </li>
+        <li>
+          <a href="#mars" uk-scroll>Life on Mars</a>
+        </li>
+      </ul>
+      <a href="#offcanvas" class="uk-navbar-toggle uk-navbar-toggle-animate uk-hidden@m " uk-toggle="target: #offcanvas" >
+        <span uk-navbar-toggle-icon></span> 
+      </a>
+    </div>
+  </nav>
+
+  <div class="uk-container">
 
     <!-- Content -->
     <h1 id="dream" class="uk-text-center">The Dream</h1>
 
     <img width="1200" height="800" src="img/AZ_AZ160526_D300-scaled.jpg" alt="Night sky">
-
-    <hr class="uk-grid-divider">
 
     <div class="uk-child-width-1-2@s" uk-grid>
       <div class="uk-padding-remove-right">
@@ -61,8 +60,6 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo nihil animi! Impedit quod optio illum maiores totam! In tenetur perspiciatis adipisci expedita at dolore earum harum incidunt quaerat ipsa.</p>
       </div>
     </div>
-
-    <hr class="uk-grid-divider">
 
     <h1 id="launch" class="uk-text-center">The Launch</h1>
 
@@ -80,8 +77,6 @@
         <img width="600" height="400" src="img/challanges.png" alt="">
       </div>
     </div>
-
-    <hr class="uk-grid-divider">
 
     <h1 id="mars" class="uk-text-center">Life on Mars</h1>
 
@@ -105,7 +100,7 @@
     </footer>
 
     <!-- Mobile Navigation -->
-    <div id="offcanvas" uk-offcanvas="overlay: true">
+    <div id="offcanvas" uk-offcanvas="mode: reveal; overlay: true">
       <div class="uk-offcanvas-bar uk-flex uk-flex-column">
         <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical" uk-scrollspy-nav="scroll: true; offset: 70;">
           <li>
