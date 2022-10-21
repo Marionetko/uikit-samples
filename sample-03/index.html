@@ -27,7 +27,7 @@
         <a href="#" class="uk-navbar-item uk-logo">The Age of Space</a>
       </div>
       <div class="uk-navbar-right uk-margin-right">
-        <ul class="uk-navbar-nav uk-subnav-divider" uk-scrollspy-nav="closest: li; scroll: true; offset: 70;">
+        <ul class="uk-navbar-nav uk-subnav-divider uk-visible@m" uk-scrollspy-nav="closest: li; scroll: true; offset: 70;">
           <li>
             <a href="#dream" uk-scroll>The Dream</a>
           </li>
@@ -38,6 +38,9 @@
             <a href="#mars" uk-scroll>Life on Mars</a>
           </li>
         </ul>
+        <a href="#offcanvas" class="uk-navbar-toggle uk-navbar-toggle-animate uk-hidden@m " uk-toggle="target: #offcanvas" >
+          <span uk-navbar-toggle-icon></span> 
+        </a>
       </div>
     </nav>
 
@@ -48,8 +51,8 @@
 
     <hr class="uk-grid-divider">
 
-    <div class="uk-child-width-1-2" uk-grid>
-      <div>
+    <div class="uk-child-width-1-2@s" uk-grid>
+      <div class="">
         <img width="600" height="400" src="img/main_1500.jpg" alt="">
       </div>
       <div class="uk-padding-remove-right">
@@ -67,7 +70,7 @@
       <img width="1200" height="800" src="img/2208_F1_1200x600.jpg" alt="Space shuttle">
     </div>
 
-    <div class="uk-child-width-1-2" uk-grid>
+    <div class="uk-child-width-1-2@s" uk-grid>
       <div>
         <h2>Plenty of Challenges ahead</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo nihil animi! Impedit quod optio illum maiores totam! In tenetur perspiciatis adipisci expedita at dolore earum harum incidunt quaerat ipsa.</p>
@@ -86,7 +89,7 @@
       <img width="1200" height="800" src="img/mars.jpg" alt="Space shuttle">
     </div>
 
-    <div class="uk-child-width-1-2" uk-grid>
+    <div class="uk-child-width-1-2@s" uk-grid>
       <div>
         <img width="600" height="400" src="img/colony.jpg" alt="">
       </div>
@@ -100,6 +103,24 @@
     <footer class="uk-text-center uk-margin uk-margin-bottom">
       <a href="#" uk-scroll>To Top</a>
     </footer>
+
+    <div id="offcanvas" uk-offcanvas="overlay: true">
+      <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical" uk-scrollspy-nav="scroll: true; offset: 70;">
+          <li>
+            <a href="#dream" uk-scroll>The Dream</a>
+          </li>
+          <li class="uk-nav-divider"></li>
+          <li>
+            <a href="#launch" uk-scroll>The Launch</a>
+          </li>
+          <li class="uk-nav-divider"></li>
+          <li>
+            <a href="#mars" uk-scroll>Life on Mars</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
   </div>
 </body>
