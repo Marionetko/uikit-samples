@@ -1,0 +1,31 @@
+.header {
+  background-image: url(../img/mist.jpg);
+  background-size: cover;
+}
+
+.header-inner {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 300px 10px 50px;
+}
+
+.header h1 {
+  font-size: 60px;
+  letter-spacing: -2px;
+  font-weight: 900;
+  color: white;
+}
+
+.header h2 {
+  font-weight: lighter;
+  font-size: 32px;
+  color: rgba(255, 255, 255, .65);
+}
+
+@media screen and (max-width: 480px) {
+  .header-inner{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 300px 10px 50px;
+  }
+}
